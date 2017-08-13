@@ -10,10 +10,8 @@
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
   crossorigin="anonymous"></script>
 
-  <head>
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-  </head>
   <link rel="stylesheet"  type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.css">
   <link rel="stylesheet" type="text/css" href="/public/style.css">
 
@@ -121,8 +119,9 @@
 
 <div class="contact-footer">
   <h1> We are <u >K</u>nott <u>O</u>nly <u>P</u>roducts </h1>
-  <h2>Please contact us for your parts and accessories needs</h2>
   <form class="ui form contact-form" action="/sendEmail" method="post">
+    <h2>Please contact us for your parts and accessories needs</h2>
+
     <div class="field">
       <label>Name</label>
       <input type="text" name='name' placeholder="Name" required>
@@ -134,10 +133,10 @@
 
     <div class="field">
     <label>Message</label>
-    <textarea name="message"></textarea required>
+    <textarea name="message" placeholder="Message"></textarea required>
   </div>
 
-    <button class="ui button contact-btn" type="submit">Submit</button>
+    <button class="ui button contact-btn subby" type="submit">Submit</button>
   </form>
 <div class="contact-info">
   <p> KOP Communications Inc. </p>

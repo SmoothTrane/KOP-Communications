@@ -17,8 +17,6 @@ body{
   background-color: white;
   font-size: 20px;
   border: none;
-
-
    width: 100%; /* Full width */
 }
 
@@ -94,8 +92,8 @@ button.ui.button.contact-btn{
 }
 
 
-.contact-btn:hover{
-  background-color: #D986FF;
+button.ui.button.contact-btn:hover{
+  background-color: #9d51bd;
 }
 
 
