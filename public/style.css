@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Nixie+One');
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+
+body{
+  color: white;
+  /*background-color: #c566ed;*/
+}
+
+
+.ui.secondary.pointing.menu.top-menu{
+  background-color: white;
+  font-size: 20px;
+  border: none;
+
+
+   width: 100%; /* Full width */
+}
+
+
+div.about-content{
+  margin:  0 auto;
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border-bottom: 2px solid #ecf0f1;
+}
+
+
+div.minority-content{
+  margin: 50px auto;
+  width: 100%;
+  color: black;
+  padding: 20px;
+  background-color: white;
+}
+
+
+
+
+div.contact-footer{
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: #333;
+  padding: 10px;
+}
+div.contact-footer .ui.form .field label{
+  color: white;
+}
+div.contact-footer .ui.form{
+  width: 50%;
+  margin: 0 auto;
+}
+
+div.contact-footer .contact-info{
+margin: 15px;
+}
+
+div.column.icon-itm img{
+  margin: 15px;
+}
+
+div.about-content h1{
+  font-weight: normal;
+}
+div.about-content h2{
+  font-weight: normal;
+  color: #95989a;
+
+}
+div.about-content p {
+  font-size: 20px;
+  font-weight: 100;
+  color: #95989a;
+  font-family: 'Ubuntu', sans-serif;
+}
+button.ui.button.contact-btn{
+  background-color: #D986FF;
+  color: white;
+  font-size: 20px;
+}
+
+
+.kop{
+  color: black;
+}
+
+
+.contact-btn:hover{
+  background-color: #D986FF;
+}
+
+
+div.contact-form input{
+  background-color: transparent;
+}
+
+div.contact-footer h2 {
+  font-weight:normal;
+}
+@media screen and (max-width: 900px){
+
+.column.icon-itm img{
+  width: 3.5em;
+}
+
+div.contact-footer .ui.form{
+  width: 85%;
+
+}
+
+}
