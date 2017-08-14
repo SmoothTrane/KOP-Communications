@@ -13,11 +13,17 @@ body{
 }
 
 
+.ui.secondary.pointing.menu.top-menu h1.number{
+padding: 25px;
+}
+
 .ui.secondary.pointing.menu.top-menu{
   background-color: white;
   font-size: 20px;
-  border: none;
+  border-bottom: 2px solid #ecf0f1;
+
    width: 100%; /* Full width */
+   color: black;
 }
 
 
@@ -104,11 +110,26 @@ div.contact-form input{
 div.contact-footer h2 {
   font-weight:normal;
 }
+
+.column.icon-itm p{
+  margin: 0 !important;
+}
+
+.column-icon-itm {
+  display: inline-block;
+}
 @media screen and (max-width: 900px){
+
+
+  .ui.secondary.pointing.menu.top-menu .right.menu h1{
+display: none;
+  }
 
 .column.icon-itm img{
   width: 3.5em;
 }
+
+
 
 div.contact-footer .ui.form{
   width: 85%;
